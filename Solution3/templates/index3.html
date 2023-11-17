@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Calculator App</title>
+</head>
+<body>
+    <div class="calculator">
+        <form action="/calculate" method="post">
+            <input type="text" name="expression" value="{{ expression }}" placeholder="Enter expression" required>
+            <button type="submit">Calculate</button>
+        </form>
+
+        {% if result is defined %}
+            <div class="result">
+                Result: {{ result }}
+            </div>
+        {% endif %}
+
+        {% if error_message is defined %}
+            <div class="error">
+                {{ error_message }}
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
