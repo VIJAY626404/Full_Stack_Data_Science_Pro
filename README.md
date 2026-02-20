@@ -25,11 +25,3 @@ Tackle challenges ranging from basic to advanced, and build your algorithmic thi
 <h1> Usage</h1>
 Feel free to explore the contents of this repository at your own pace. Whether you're studying independently, preparing for interviews, or working on real-world projects, you'll find valuable resources here to support your goals.
 
-<h1>Contribution</h1>
-We welcome contributions from the community to make this repository even more robust and comprehensive. If you have suggestions for improvements, additional resources, or would like to report issues, please don't hesitate to open an issue or submit a pull request.
-
-<h1>Acknowledgements</h1>
-We extend our gratitude to all contributors who have helped shape this repository into a valuable resource for aspiring and seasoned data scientists alike.
-
-<h1>License</h1>
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
